@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - HTML to PDF</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div class="container form" id="form">
+    <div class="row title hidden-print">
+      <div class="col-sm-6">
+        <h1 style="color: #5cb85c;"><b>My Projects</b></h1><br>
+        <center>
+          <h3 style="color: #271ff8;">Web page to pdf converter</h3><br>
+        </center>
+        <h2>Web File to PDF Converter</h2>
+      </div>
+      <div class="col-sm-6 text-right"><a class="btn btn-success" id="exportForm">Export page</a></div>
+    </div>
+    <div id="first-page">
+      <div class="row title">
+        <div class="col-sm-12">
+          <h2>First Page</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 form-group">
+          <label>First Name</label>
+          <input class="form-control" />
+        </div>
+        <div class="col-sm-3 form-group">
+          <label>Last Name</label>
+          <input class="form-control" />
+        </div>
+        <div class="col-sm-3 form-group">
+          <label>Birthday</label>
+          <input class="form-control" />
+        </div>
+        <div class="col-sm-3 form-group">
+          <label>Email Address</label>
+          <input class="form-control" />
+        </div>
+      </div>
+      <div class="row hidden-print">
+        <div class="col-sm-12 form-group">
+          <label>Bio</label>
+          <textarea class="form-control"></textarea>
+        </div>
+      </div>
+    </div>
+    <div id="second-page">
+      <div class="row title">
+        <div class="col-sm-12">
+          <h2>Second Page</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 form-group">
+          <label>First Name</label>
+          <input class="form-control" />
+        </div>
+        <div class="col-sm-3 form-group">
+          <label>Last Name</label>
+          <input class="form-control" />
+        </div>
+        <div class="col-sm-3 form-group">
+          <label>Birthday</label>
+          <input class="form-control" />
+        </div>
+        <div class="col-sm-3 form-group">
+          <label>Email Address</label>
+          <input class="form-control" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <label>Bio</label>
+          <textarea class="form-control"></textarea>
+        </div>
+      </div>
+    </div>
+    <div id="third-page">
+      <div class="row title">
+        <div class="col-sm-12">
+          <h2>Third Page</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 form-group">
+          <label>First Name</label>
+          <input class="form-control" />
+        </div>
+        <div class="col-sm-3 form-group">
+          <label>Last Name</label>
+          <input class="form-control" />
+        </div>
+        <div class="col-sm-3 form-group">
+          <label>Birthday</label>
+          <input class="form-control" />
+        </div>
+        <div class="col-sm-3 form-group">
+          <label>Email Address</label>
+          <input class="form-control" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <label>Bio</label>
+          <textarea class="form-control"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
